@@ -6,15 +6,24 @@
 
 #nav {
 	height:70px;
+	width: 100%;
+	position: fixed;
+	display: block;
 }
 
 #nav ul {
 	list-style-type: none;
+	margin-top: 1.5%;
+	text-align: right;
 }
 
 #nav li {
 	display: inline;
 	color: white; 
+	margin: 0 1%;
+	font-family: 'Lato', sans-serif;
+	color: #F7F6F6;
+	font-stretch: semi-expanded;
 }
 
 #nav img {
