@@ -3,3 +3,30 @@
   margin: 0;
   padding: 0;
 }
+
+#nav {
+	height:70px;
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+	color: white; 
+}
+
+#nav img {
+	float:left;
+}
+
+#hero {
+	background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+	height: 500px;
+	background-size: cover;
+}
+
+#intro {
+	background-color: #F0F0F0;
+}
