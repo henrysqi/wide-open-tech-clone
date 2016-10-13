@@ -26,22 +26,143 @@
 	font-stretch: semi-expanded;
 }
 
+#nav li:hover {
+	border-bottom: thick solid #BDD436;
+}
+
 #nav img {
 	float:left;
 }
+
+/* =================================================================== */
 
 #hero {
 	background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
 	height: 500px;
 	background-size: cover;
+	position: relative;
+	z-index: -1;
 }
+
+#hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+
+#hero-text h1 {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 8.5em;
+	font-weight: 100;
+}
+
+#hero-text h5 {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+#hero-text p {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25em;
+	font-weight: 100;
+	text-align: center;
+}
+
+#hero-text button {
+	position: relative;
+	height: 50px;
+	width: 150px;
+	margin-left: 40%;
+	margin-top: 8%;
+	background-color: #BDD436;
+	border: none; 
+	color: white;
+	border-radius: 100px; 
+}
+
+/* =================================================================== */
 
 #intro {
 	background-color: #F0F0F0;
+	text-align: center;
+	padding: 5% 20%;
 }
 
+#intro p {
+	font-family: 'Open Sans', sans-serif;
+	color: #6A787C;
+	margin-bottom: 25px;
+	font-size: 1.5em;
+}
 
+#intro img {
+	height: 100px;
+	width: 200px;
+}
 
+#intro h5 {
+	position: relative;
+	margin-top: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3em
+}
+
+#intro h5 span{
+	color: #BDD436;
+}
+
+/* =================================================================== */
+
+#steps {
+	padding: 5% 10%;
+	text-align: center;
+}
+
+#steps #steps-col1 {
+	width: 33%;
+	float: left;
+	height: 500px;
+}
+
+#steps #steps-col1 img{
+	height: 150px;
+	width: 150px;
+}
+
+#steps #steps-col2 {
+	width: 33%;
+	float: left;
+	height: 500px;
+
+}
+
+#steps #steps-col2 img{
+	height: 150px;
+	width: 150px;
+}
+
+#steps #steps-col3 {
+	width: 33%;
+	float: left;
+	height: 500px;
+
+}
+
+#steps #steps-col3 img{
+	height: 150px;
+	width: 150px;
+}
+
+/* =================================================================== */
+
+#help {
+	clear: both;
+}
 
 
 
