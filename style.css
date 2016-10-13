@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+	
 }
 
 #nav {
@@ -9,11 +10,13 @@
 	width: 100%;
 	position: fixed;
 	display: block;
+	padding-left: 2%;
+	transition-duration: 1s;
 }
 
 #nav ul {
 	list-style-type: none;
-	margin-top: 1.5%;
+	margin-top: 22px;
 	text-align: right;
 }
 
@@ -32,12 +35,15 @@
 
 #nav img {
 	float:left;
+	height: 46px;
+	width: 230px;
+	margin-top: 10px;
 }
 
 /* =================================================================== */
 
 #hero {
-	background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+	background-image: url("imgs/wot-masthead-dark.jpg");
 	height: 500px;
 	background-size: cover;
 	position: relative;
@@ -71,6 +77,8 @@
 	font-size: 1.25em;
 	font-weight: 100;
 	text-align: center;
+	width: 60%;
+	float: left;
 }
 
 #hero-text button {
@@ -85,6 +93,21 @@
 	border-radius: 100px; 
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2em;
+}
+
+.line {
+	width: 15%;
+	height: 10px;
+	background-color: white;
+	float: left;
+	margin-top: 10px;
+}
+
+#line1 {
+	margin-left: 23px;
+}
+
+#line2 {
 }
 
 /* =================================================================== */
@@ -251,6 +274,11 @@
 	font-size: 1.2em;
 }
 
+#help .help-button-container {
+	float: left;
+	width: 100%;
+}
+
 /* =================================================================== */
 
 #companies h3 {
@@ -263,9 +291,9 @@
 }
 
 #images img {
-	width: 33%;
+	width: calc(100%/3);
 	height: 300px;
-	
+	float: left;
 }
 
 /* =================================================================== */
@@ -276,6 +304,7 @@
 	color: white;
 	text-align: center;
 	padding: 100px 0;
+	clear: both;
 }
 
 #contact h4{
@@ -307,7 +336,7 @@
 /* =================================================================== */
 
 #locations-col1 {
-	background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wilmington.jpg");
+	background-image: url("imgs/wilmington.jpg");
 	background-size: cover;
 	height: 450px;
 	width: 50%;
@@ -316,7 +345,7 @@
 }
 
 #locations-col2 {
-	background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/asheville.jpg");
+	background-image: url("imgs/asheville.jpg");
 	background-size: cover;
 	height: 450px;
 	width: 50%;
@@ -346,6 +375,34 @@
 	padding-bottom: 10px;
 }
 
+/* =================================================================== */
+
+footer {
+	clear:both;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F6F6F6;
+	height: 70px;
+	padding-top: 25px;
+	color: #40666D;
+	position: relative;
+	padding-left: 2%;
+}
+
+footer p {
+	display: inline;
+	float: left;
+}
+
+footer ul {
+	position: absolute;
+	display: block;
+	right: 0;
+}
+
+footer ul li {
+	display: inline;
+	margin: 0 2%;
+}
 
 
 

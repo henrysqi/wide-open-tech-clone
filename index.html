@@ -4,10 +4,11 @@
 	  <title>Wide Open Tech - Internet Technology Experts in eCommerce, Development</title>
 		<link rel="stylesheet" href="style.css" />
 		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	</head>
   <body>
 		<div id="nav">
-			<img src="http://wideopentech.com/themes/wot-2013-gm/_/img/title_wideopentech.png"/>
+			<img src="imgs/title_wideopentech.png"/>
 			<ul>
 				<li>SERVICES</li>
 				<li>COMPANY</li>
@@ -22,36 +23,40 @@
 			<div id="hero-text">
 				<h5>YOUR DIGITAL</h5>
 				<h1>WORKSHOP</h1>
-				<p>Building Business <span id="hero-orange">Solutions</span> &amp; Bright <span id="hero-green">Ideas</span></p>
+				<div id="line1" class="line"></div>
+					<p>Building Business <span id="hero-orange">Solutions</span> &amp; Bright <span id="hero-green">Ideas</span></p>
+				<div id="line1" class="line"></div>
 				<button>Learn More</button>
 			</div>
 		</section>
 		
 		<section id="intro">
 			<p>Wide Open Technologies brings enterprise-level technology to small and mid-sized companies - building the digital technology that solves unique problems, works better and turns ideas into functional reality.</p>
-			<img src="http://www.suntouch.com/media/1054/icon_servicesupport-2x.png"/>
+			<img src="imgs/icon_servicesupport-2x.png"/>
 			<h5>HERE'S HOW IT <span>WORKS</span></h5>
 		</section>
 		
 		<section id="steps">
 			<div id="steps-col1">
-				<img class="icon" src="http://www.freeiconspng.com/uploads/lightbulb-icon-png-effects-17.png"/>
+				<img class="icon" src="imgs/lightbulb-icon-png-effects-17.png"/>
 				<p>Bring Your Business</p>
 				<p>Ideas, Problems, Challenges or Dreams to Wide Open.</p>
 				<a href="#">Learn About Our Services</a>
-				<img class="arrow" src="http://icons.iconarchive.com/icons/icons8/android/512/Arrows-Right-icon.png"/>
+				<div class="arrow-container">
+					<img class="arrow" src="imgs/Arrows-Right-icon.png"/>
+				</div>
 			</div>
 			<div id="steps-col2">
-				<img class="icon" src="http://downloadicons.net/sites/default/files/go-straight-and-turn-right-sign-icon-88707.png"/>
+				<img class="icon" src="imgs/go-straight-and-turn-right-sign-icon-88707.png"/>
 				<p>Wide Open's tight knit <span>team of experts</span> becomes your team of experts, advising you on the most effective, efficient solution.</p>
 				<a href="#">Learn About Our Company</a>
-				<img class="arrow" src="http://icons.iconarchive.com/icons/icons8/android/512/Arrows-Right-icon.png"/>
+				<img class="arrow" src="imgs/Arrows-Right-icon.png"/>
 			</div>
 			<div id="steps-col3">
-				<img class="icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/294411-200.png"/>
+				<img class="icon" src="imgs/294411-200.png"/>
 				<p>Ideas, Problems, Challenges or Dreams to Wide Open.</p>
 				<a href="#">See Some of the Work We Have Done</a>
-				<img class="arrow" src="http://icons.iconarchive.com/icons/icons8/android/512/Arrows-Right-icon.png"/>
+				<img class="arrow" src="imgs/Arrows-Right-icon.png"/>
 			</div>
 		</section>
 		
@@ -81,18 +86,20 @@
 					<p>Customized functionality tailored to your business</p>
 				</div>
 			</div>
+			<div class="help-button-container">
 			<button><p>Contact Us</p></button>
+			</div>
 		</section>
 		
 		<section id="companies">
 			<h3>COMPANIES WE WORK WITH</h3>
 			<div id="images">
-				<img src="http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/GTG-portfolio.png"/>
-				<img src="http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/CI-portfolio.png"/>
-				<img src="http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/ISI-portfolio.png"/>
-				<img src="http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/RG-portfolio.png"/>
-				<img src="http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/AM-portfolio.png"/>
-				<img src="http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/NCMA-portfolio.png"/>
+				<img src="imgs/GTG-portfolio.png"/>
+				<img src="imgs/CI-portfolio.png"/>
+				<img src="imgs/ISI-portfolio.png"/>
+				<img src="imgs/RG-portfolio.png"/>
+				<img src="imgs/AM-portfolio.png"/>
+				<img src="imgs/NCMA-portfolio.png"/>
 			</div>
 		</section>
 		
@@ -123,15 +130,17 @@
 			</div>
 		</section>
 		<footer>
-			<p>&copy; 2016 Open Technologies - <span>Privacy</span></p>
-			<ul>
-				<li>SERVICES</li>
-				<li>COMPANY</li>
-				<li>PORTFOLIO</li>
-				<li>CAREERS</li>
-				<li>BLOG</li>
-				<li>CONTACT</li>
-			</ul>
+			<div id="footer-text">
+				<p>&copy; 2016 Open Technologies - <span>Privacy</span></p>
+				<ul>
+					<li>SERVICES</li>
+					<li>COMPANY</li>
+					<li>PORTFOLIO</li>
+					<li>CAREERS</li>
+					<li>BLOG</li>
+					<li>CONTACT</li>
+				</ul>
+			</div>
 		</footer>
 		
 	<script src="script.js"></script>
