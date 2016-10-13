@@ -83,6 +83,8 @@
 	border: none; 
 	color: white;
 	border-radius: 100px; 
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
 }
 
 /* =================================================================== */
@@ -109,7 +111,8 @@
 	position: relative;
 	margin-top: 25px;
 	font-family: 'Oswald', sans-serif;
-	font-size: 3em
+	font-size: 2.7em;
+	font-weight: 100;
 }
 
 #intro h5 span{
@@ -121,27 +124,47 @@
 #steps {
 	padding: 5% 10%;
 	text-align: center;
+	height: 530px;
+	position: relative;
+}
+
+#steps p{
+	font-family: 'Open Sans', sans-serif;
+	padding: 3% 0;
+	color: #A4A2A7;
+}
+
+#steps a{
+	
 }
 
 #steps #steps-col1 {
 	width: 33%;
 	float: left;
-	height: 500px;
+	height: 450px;
+	border-right: 3px solid #F0F0F0;
+	padding: 2%;
 }
 
-#steps #steps-col1 img{
+#steps #steps-col1 .icon{
 	height: 150px;
 	width: 150px;
+}
+
+.arrow {
+	height: 50px;
+	width: 50px;
 }
 
 #steps #steps-col2 {
 	width: 33%;
 	float: left;
-	height: 500px;
-
+	height: 450px;
+	border-right: 3px solid #F0F0F0;
+	padding: 2%;
 }
 
-#steps #steps-col2 img{
+#steps #steps-col2 .icon{
 	height: 150px;
 	width: 150px;
 }
@@ -149,11 +172,11 @@
 #steps #steps-col3 {
 	width: 33%;
 	float: left;
-	height: 500px;
-
+	height: 450px;
+	padding: 2%;
 }
 
-#steps #steps-col3 img{
+#steps #steps-col3 .icon{
 	height: 150px;
 	width: 150px;
 }
@@ -162,17 +185,167 @@
 
 #help {
 	clear: both;
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 5% 20%;
+	height: 950px;
 }
 
+#help h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.0em;
+	font-weight: 100;
+	color: #406675;
+}
 
+#help h3 span{
+	color: #BDD436;
+}
 
-/* 
+#help h5 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	color: #406675;
+	margin-bottom: 50px;
+}
+
+#help-col1 {
+	width: 47.5%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 5%;
+}
+
+#help-col2 {
+	width: 47.5%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.help-container {
+	background-color: white;
+	padding: 10%;
+	margin-bottom: 25px;
+}
+
+.help-container h4{
+	font-size: 1.3em;
+	color: #406675;
+}
+
+.help-container p{
+	color: #406675;
+}
+
+#help button {
+	position: relative;
+	height: 50px;
+	width: 150px;
+	background-color: #BDD436;
+	border: none; 
+	color: white;
+	border-radius: 100px; 
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+}
+
+/* =================================================================== */
+
+#companies h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.7em;
+	font-weight: 100;
+	color: #406675;
+	margin: 40px 0;
+	text-align: center;
+}
+
+#images img {
+	width: 33%;
+	height: 300px;
+	
+}
+
+/* =================================================================== */
+
+#contact {
+	background-color: #6A787C;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	padding: 100px 0;
+}
+
+#contact h4{
+	border-bottom: 8px solid #BDD537;
+	padding-bottom: 20px;
+	width: 200px;
+	font-size: 1.9em;
+	font-weight: 100;
+	margin: 0 auto 25px;;
+	
+}
+
+#contact p {
+	padding-bottom: 50px;
+}
+
+#contact button {
+	position: relative;
+	height: 50px;
+	width: 150px;
+	background-color: #BDD436;
+	border: none; 
+	color: white;
+	border-radius: 100px; 
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+}
+
+/* =================================================================== */
+
 #locations-col1 {
 	background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wilmington.jpg");
 	background-size: cover;
+	height: 450px;
+	width: 50%;
+	float: left;
+	position: relative;
 }
 
 #locations-col2 {
 	background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/asheville.jpg");
 	background-size: cover;
+	height: 450px;
+	width: 50%;
+	float: left;
+	position: relative;
 }
+
+.locations-container {
+	position: absolute;
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	background-color: #132023;
+	opacity: 0.8;
+	padding: 4% 30% 4% 4%;
+	font-family: 'Lato', sans-serif;
+}
+
+.locations-container h4{
+	color: #B6CA4F;
+	font-size: 2em;
+	padding: 0 0 10px 0;
+}
+
+.locations-container p{
+	color: #C3C7C7;
+	padding-bottom: 10px;
+}
+
+
+
+
