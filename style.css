@@ -5,6 +5,10 @@
 	
 }
 
+.hidden {
+	display: none;
+}
+
 #nav {
 	height:70px;
 	width: 100%;
@@ -38,6 +42,23 @@
 	height: 46px;
 	width: 230px;
 	margin-top: 10px;
+}
+
+#nav .ham {
+	height: 50px;
+	width: 70px;
+	position: absolute;
+	right: 0;
+	margin-right: 30px;
+	display: none;
+}
+
+#nav .logo {
+	
+}
+
+#nav .dark {
+	height: 60px;
 }
 
 /* =================================================================== */
@@ -158,11 +179,30 @@
 }
 
 #steps a{
+	text-decoration: none;
+	color: #BDD46A;
+	display: block;
+	position: absolute;
+	bottom: 120px;
+	margin-left: 8%;
+	width: 100px;
+}
+
+.arrow {
+	height: 30px;
+	width: 30px;
+	display: block;
+	position: absolute;
+	bottom: 50px;
+	margin-left: 10%;
 	
 }
 
-#steps #steps-col1 {
+.col {
 	width: 33%;
+}
+
+#steps #steps-col1 {
 	float: left;
 	height: 450px;
 	border-right: 3px solid #F0F0F0;
@@ -174,13 +214,7 @@
 	width: 150px;
 }
 
-.arrow {
-	height: 50px;
-	width: 50px;
-}
-
 #steps #steps-col2 {
-	width: 33%;
 	float: left;
 	height: 450px;
 	border-right: 3px solid #F0F0F0;
@@ -193,7 +227,6 @@
 }
 
 #steps #steps-col3 {
-	width: 33%;
 	float: left;
 	height: 450px;
 	padding: 2%;
@@ -272,6 +305,7 @@
 	border-radius: 100px; 
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2em;
+	margin-top: 60px;
 }
 
 #help .help-button-container {
@@ -294,6 +328,7 @@
 	width: calc(100%/3);
 	height: 300px;
 	float: left;
+	min-width: 333px;
 }
 
 /* =================================================================== */
@@ -403,6 +438,78 @@ footer ul li {
 	display: inline;
 	margin: 0 2%;
 }
+
+/* =================================================================== */
+
+@media (max-width: 1000px){
+	
+	#nav {
+		background-color: white;
+	}
+	
+	#nav ul {
+		display: none;
+	}
+	
+	#hero h5 {
+		text-align: center;
+	}
+	
+	#nav .logo{
+		display: none;
+	}
+	#nav .dark {
+		display: block;
+		height: 60px;
+	}
+	
+	#nav .ham {
+		display: block;
+	}
+	
+	#steps a{
+	position: static;
+	margin: 20px auto;
+	
+	}
+
+	.arrow {
+	position: static;
+	margin: 40px auto;
+	}
+	
+	#steps .col {
+		width: 100% !important;
+	}
+	
+	#help {
+		padding: 5% 0;
+		height: 1300px;
+	}
+	
+	#help-col1 {
+		clear:both;
+	}
+	
+	#help-col2 {
+		clear:both;
+	}
+	
+	.help-container {
+		clear: both;
+		width: 500px;
+		margin-left: 50%;
+	}
+	
+
+	
+	#images img {
+		width: 50%;
+	}
+	
+	
+}
+
 
 
 
